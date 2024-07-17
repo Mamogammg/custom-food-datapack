@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    "XXX"
+  ],
+  "key": {
+    "X": {"item": "minecraft:cooked_porkchop"}
+  },
+  "result": {
+    "id": "minecraft:cooked_beef",
+  	"count": 1,
+    "components": {
+     "minecraft:custom_model_data": 2,
+      "minecraft:custom_name": "[{'text':'Boiled Ham','italic':false}]",
+      "custom_data": {"name": "Boiled Ham"},
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation": 0.2,
+        "can_always_eat": true
+      }
+    }
+  }
+}
