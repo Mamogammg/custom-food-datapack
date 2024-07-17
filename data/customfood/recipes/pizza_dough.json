@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    "XO "
+  ],
+  "key": {
+    "X": {"item": "minecraft:wheat"},
+    "O": {"item": "minecraft:water_bucket"}
+  },
+  "result": {
+    "id": "minecraft:wheat",
+  	"count": 1,
+    "components": {
+      "custom_model_data": 2,
+      "custom_name": "[{'text':'Pizza Dough','italic':false}]",
+      "custom_data": {"name": "Pizza Dough", "dough": "pizza"}
+    }
+  }
+}
